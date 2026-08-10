@@ -13,7 +13,7 @@ def set_debug_mode(enabled: bool):
     DEBUG_MODE = enabled
 
 # SEO по умолчанию (может быть переопределено переменными окружения в продакшене)
-DEFAULT_META_TITLE = "Goida VPN Configs"
+DEFAULT_META_TITLE = "Kastilio VPN Configs"
 DEFAULT_META_DESCRIPTION = (
     "Автоматические VPN-конфиги для V2Ray, VLESS, Hysteria, Trojan, VMess, Reality и Shadowsocks. "
     "Обновление каждые 9 минут, удобные ссылки и QR-коды."
@@ -50,7 +50,7 @@ BADGES = {
 }
 
 # Кэш для статистики GitHub
-STATS_REPO = 'AvenCores/goida-vpn-configs'
+STATS_REPO = 'Kastilio/goida-vpn-configs'
 STATS_CACHE_FILE = os.path.join(BASE_DIR, 'github_stats_cache.json')
 STATS_CACHE_DURATION = timedelta(hours=1)
 
